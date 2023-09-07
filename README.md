@@ -1,6 +1,3 @@
-Certainly, here's an updated README.md file for your GitHub repository, with a placeholder link for the dataset download:
-
-
 # Handwritten Alphabet Recognition using Convolutional Neural Networks (CNN)
 
 This repository contains a Python script that demonstrates the use of Convolutional Neural Networks (CNN) for recognizing handwritten alphabets. The script uses the Keras library with TensorFlow backend to create and train a CNN model.
@@ -68,8 +65,8 @@ Place the downloaded dataset in the root directory of this project.
 
 ## Files
 
-- `handwritten_alphabet_recognition.py`: The main Python script containing the code for alphabet recognition.
-- `yy.png`: An example image for alphabet recognition.
+- `Handwritten_textfile.txt`: The main Python script containing the code for alphabet recognition.
+- `dd.png`: An example image for alphabet recognition.
 
 ## Acknowledgments
 
