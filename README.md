@@ -1,3 +1,6 @@
+Certainly, here's an updated README.md file for your GitHub repository, with a placeholder link for the dataset download:
+
+
 # Handwritten Alphabet Recognition using Convolutional Neural Networks (CNN)
 
 This repository contains a Python script that demonstrates the use of Convolutional Neural Networks (CNN) for recognizing handwritten alphabets. The script uses the Keras library with TensorFlow backend to create and train a CNN model.
@@ -13,18 +16,25 @@ Before running the code, ensure that you have the following libraries installed:
 - Pandas
 - Scikit-Learn
 
-
 You can install these libraries using pip:
 
 ```bash
 pip install matplotlib opencv-python numpy keras pandas scikit-learn
 ```
 
+## Dataset
+
+Download the handwritten alphabet dataset from the following link:
+
+(https://drive.google.com/file/d/1rhYQyz2rnD0xolCFmeJdjEV7gtjjdCsU/view?usp=sharing)
+
+Place the downloaded dataset in the root directory of this project.
+
 ## Usage
 
 1. Clone this repository to your local machine.
 
-2. Ensure you have also downloaded the provided dataset or your own data file that contains handwritten alphabet images. The provided data is in a format where each row corresponds to an image, and the first column is the label for that image. Several such images(37k+ rows) are available in the provided dataset.
+2. Ensure you have the necessary dataset or data file named `data` that contains handwritten alphabet images. The data should be in a format where each row corresponds to an image, and the first column is the label for that image.
 
 3. Run the script by executing it in your Python environment.
 
@@ -36,7 +46,7 @@ pip install matplotlib opencv-python numpy keras pandas scikit-learn
    - Define and train a CNN model for alphabet recognition.
    - Display training and validation accuracy/loss curves.
    - Make predictions on sample images.
-   - Perform alphabet recognition on a user-provided image (`x.png`).
+   - Perform alphabet recognition on a user-provided image (`yy.png`).
 
 ## Description
 
@@ -54,13 +64,13 @@ pip install matplotlib opencv-python numpy keras pandas scikit-learn
 
 - The script also demonstrates alphabet recognition by making predictions on sample images from the testing dataset.
 
-- Finally, the script performs alphabet recognition on a user-provided image (`x.png`) and displays the predicted alphabet.
+- Finally, the script performs alphabet recognition on a user-provided image (`yy.png`) and displays the predicted alphabet.
 
 ## Files
 
-- `handwritten_alphabet_recognition.txt`: The main Python script containing the code for alphabet recognition.
-- `a.png`: An example image for alphabet recognition.
+- `handwritten_alphabet_recognition.py`: The main Python script containing the code for alphabet recognition.
+- `yy.png`: An example image for alphabet recognition.
 
 ## Acknowledgments
 
-This code is for educational purposes and demonstrates how to build a simple CNN model for handwritten alphabet recognition.
+This code is for educational purposes and demonstrates how to build a simple CNN model for handwritten alphabet recognition. The dataset used in this code is provided with a google drive link and should be downloaded to run this code.
